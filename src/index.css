@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'BD Megatoya'; /* Use the same font family name here */
+  src: url('./assets/fonts/BD Megatoya Regular.ttf');
+}
+
+.font-main {
+  font-family: 'BD Megatoya'; /* Use the same font family name here */
+}
+
+
+.blob{
+    /* position: absolute; */
+    top: 100px;
+    left: 50%;
+    z-index: -10;
+    height: 20rem;
+    width: 24rem;
+    overflow: hidden;
+    border-radius: 9999px;
+    bg-opacity: 1;
+    background-color: rgb(164 39 223 / var(rgb(55, 0, 128)));
+    opacity: 0.2;
+    /* --tw-blur: blur(40px); */
+}
+
+h1{
+  line-height: 0.7em !important;
+  letter-spacing: -3px !important;
+  margin: 0 !important;
+}
