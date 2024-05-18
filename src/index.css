@@ -42,3 +42,19 @@ h1 {
   -moz-box-shadow: 0px 0px 35px 5px #8B2AD3;
   box-shadow: 0px 0px 35px 5px #8B2AD3;
 }
+ .center{
+  transform: translate(50% , 0%);
+}
+
+.font-poppin{
+  font-family: "Poppins", sans-serif;
+}
+
+/* Tab section */
+.tab {
+  height: 430px;
+}
+
+.tabPhoto{
+  
+}

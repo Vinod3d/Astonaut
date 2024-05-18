@@ -2,6 +2,7 @@ import React from 'react'
 import ServiceCard from './FeaturedCard'
 import BrandLogo from './BrandLogo'
 import FeaturedCard from './FeaturedCard'
+import FeatureTab from './FeatureTab'
 
 
 const Services = () => {
@@ -9,9 +10,7 @@ const Services = () => {
         <div className="">
             <BrandLogo/>
             <FeaturedCard/>
-            <div className="">
-                
-            </div>
+            <FeatureTab/>
         </div>
     )
 }
