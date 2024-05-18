@@ -3,10 +3,10 @@ import men from '../assets/men.png'
 const FeatureTab = () => {
     return (
         <div className="px-8 pb-10 relative">
-            <div className="tab bg-black border rounded-2xl border-gray-50 text-white overflow-hidden ">
+            <div className=" bg-black border rounded-2xl border-gray-500 text-white overflow-hidden ">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
                     <div className="tabPhoto flex-1">
-                        <img src={men} className='w-96' alt="Futuristic Character" />
+                        <img src={men} className='m-auto' alt="Futuristic Character" />
                     </div>
                     <div className="flex-1 flex flex-col gap-16">
                         <div className="flex space-x-3">

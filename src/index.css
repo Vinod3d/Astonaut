@@ -7,8 +7,17 @@
   src: url("./assets/fonts/BD Megatoya Regular.ttf");
 }
 
+@font-face {
+  font-family: "BD Megatoya Semibold"; /* Use the same font family name here */
+  src: url("./assets/fonts/BD Megatoya Semi Bold.ttf");
+}
+
 .font-main {
   font-family: "BD Megatoya"; /* Use the same font family name here */
+}
+
+.font-main-bold {
+  font-family: "BD Megatoya Semibold"; /* Use the same font family name here */
 }
 
 .blob {
@@ -51,10 +60,16 @@ h1 {
 }
 
 /* Tab section */
-.tab {
+.tab{
   height: 430px;
 }
 
-.tabPhoto{
-  
+.tabPhoto img{
+  width: 27rem;
+}
+
+/* Achievement */
+
+.achievement .pose{
+  width: 27rem;
 }
