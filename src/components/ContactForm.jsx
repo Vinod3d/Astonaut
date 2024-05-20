@@ -9,7 +9,7 @@ const ContactForm = () => {
                 <div className="md:h-[640px] flex flex-col md:flex-row items-center justify-between">
                     <div className="gap-5 m-auto items-start space-y-4 hidden md:block">
                         <div className="flex gap-4">
-                            <button href="#" className="mt-[-350px] flex items-center space-x-2 text-purple-600 hover:text-purple-800">
+                            <button href="#" className="relative ml-9 mt-[-350px] flex items-center space-x-2 text-purple-600 hover:text-purple-800">
                                 <span className='border rounded-full border-purple-600 p-1'>
                                     <FiArrowDownRight className='text-base' />
                                 </span>
@@ -18,9 +18,9 @@ const ContactForm = () => {
                             <img src={pose4} alt="Decorative Image" className="mt-20" />
                         </div>
                     </div>
-                    <div className="mt-8 md:mt-0 flex-1">
-                        <h2 className="text-2xl font-bold text-zinc-900 dark:text-white mb-6">Let's Collaborate</h2>
-                        <form className="space-y-4">
+                    <div className="mt-8 md:mt-0 flex-1 p-6">
+                        <form className="space-y-4 px-16">
+                        <h2 className="text-[4vw]  font-main-bold font-bold mb-10">Let's Collaborate</h2>
                             <div className="flex flex-wrap -mx-2">
                                 <div className="w-full md:w-1/2 px-2 mb-4">
                                     <label className="block text-sm font-medium text-gray-700" htmlFor="name">Your Name</label>
@@ -77,13 +77,13 @@ const ContactForm = () => {
                                         id="message"
                                         placeholder="Start typing here"
                                         className="w-full p-2 border-b border-zinc-300 focus:outline-none"
-                                        rows="4"
+                                        rows="1"
                                     ></textarea>
                                 </div>
                                 <div className="w-full md:w-1/4 px-2 mb-4 flex items-end">
                                     <button
                                         type="submit"
-                                        className="w-full bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
+                                        className="w-full bg-purple-500 text-white px-4 py-2 rounded-2xl hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
                                     >
                                         Submit now
                                     </button>

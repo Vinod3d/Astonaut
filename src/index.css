@@ -57,7 +57,7 @@ h1 {
 
 .grad-3{
   background: rgb(255,255,255);
-  background: linear-gradient(203deg, rgba(255,255,255,1) 50%, rgba(222,181,253,1) 99%, rgba(181,87,250,1) 100%);
+  background: linear-gradient(203deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 63%, rgba(216,167,252,1) 100%, rgba(181,87,250,1) 100%);
 }
 
 .text-gradient {

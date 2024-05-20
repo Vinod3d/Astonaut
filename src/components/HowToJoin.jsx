@@ -12,7 +12,7 @@ const HowToJoin = () => {
                     <div className="w-full lg:w-2/3 px-4">
                         <div className='flex'>
                             <h1 className="text-4xl md:text-[4vw] pl-2 font-main-bold flex-1 mb-6">How to join?</h1>
-                            <p className="flex-1 text-[20px] pl-5 mb-8">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem</p>
+                            <p className="flex-1 text-[22px] pl-5 mb-8">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem</p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 m-auto gap-4">
                             <div className=" card-1 border border-gray-600 w-[100%] max-w-[449px] m-auto h-56 md:h-48 p-4 rounded-3xl shadow-lg">
