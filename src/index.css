@@ -20,6 +20,10 @@
   font-family: "BD Megatoya Semibold"; /* Use the same font family name here */
 }
 
+.font-2{
+  font-family: "Poppins", sans-serif;
+}
+
 .blob {
   /* position: absolute; */
   top: 100px;
@@ -49,6 +53,11 @@ h1 {
 .grad-2 {
   background: rgb(0,0,0);
   background: linear-gradient(203deg, rgba(0,0,0,1) 0%, rgba(42,20,58,1) 38%, rgba(112,54,154,1) 100%, rgba(181,87,250,1) 100%);
+}
+
+.grad-3{
+  background: rgb(255,255,255);
+  background: linear-gradient(203deg, rgba(255,255,255,1) 50%, rgba(222,181,253,1) 99%, rgba(181,87,250,1) 100%);
 }
 
 .text-gradient {
@@ -101,5 +110,19 @@ h1 {
   background-image: url(./assets/cardBack/cardBack2.svg);
   background-size: cover;
   background-position: top;
+  background-repeat: no-repeat;
+}
+
+.howToJoin .card-3{
+  background-image: url(./assets/cardBack/cardBack3.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.howToJoin .card-4{
+  background-image: url(./assets/cardBack/cardBack4.svg);
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
