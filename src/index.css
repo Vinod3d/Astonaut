@@ -60,6 +60,11 @@ h1 {
   background: linear-gradient(203deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 63%, rgba(216,167,252,1) 100%, rgba(181,87,250,1) 100%);
 }
 
+.grad-4{
+  background: rgb(186,94,255);
+  background: linear-gradient(328deg, rgba(186,94,255,1) 0%, rgba(128,65,176,1) 0%, rgba(0,0,0,1) 29%, rgba(35,18,48,1) 80%, rgba(180,83,255,1) 100%);
+}
+
 .text-gradient {
   background: linear-gradient(91.81deg, #000, rgba(102, 102, 102, 0));
   -webkit-background-clip: text;
@@ -69,6 +74,13 @@ h1 {
   padding: 20px;
 }
 
+.text-gradient2 {
+  background: linear-gradient(91.81deg, #FFFFFF, rgba(102, 102, 102, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
 .shadow-glow {
   -webkit-box-shadow: 0px 0px 35px 5px #8B2AD3;
   -moz-box-shadow: 0px 0px 35px 5px #8B2AD3;
