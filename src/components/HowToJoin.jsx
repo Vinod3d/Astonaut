@@ -1,5 +1,5 @@
 import pose3 from '../assets/pose3.png'
-import SignImg from '../assets/FeaturedIcons/Signicon.svg'
+import SignImg from '../assets/FeaturedIcons/SignIcon.svg'
 import verify from '../assets/FeaturedIcons/verify.svg'
 import doneIcon from '../assets/FeaturedIcons/doneIcon.svg'
 import { FiArrowDownRight } from "react-icons/fi";
