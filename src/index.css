@@ -29,7 +29,7 @@
   width: 24rem;
   overflow: hidden;
   border-radius: 9999px;
-  bg-opacity: 1;
+  opacity: 1;
   background-color: rgb(164 39 223 / var(rgb(55, 0, 128)));
   opacity: 0.2;
   /* --tw-blur: blur(40px); */
@@ -44,6 +44,20 @@ h1 {
 .grad-1 {
   background: rgb(0, 0, 0);
   background: linear-gradient(25deg, rgba(0, 0, 0, 1) 0%, rgba(31, 0, 54, 1) 29%, rgba(44, 0, 77, 1) 85%);
+}
+
+.grad-2 {
+  background: rgb(0,0,0);
+  background: linear-gradient(203deg, rgba(0,0,0,1) 0%, rgba(42,20,58,1) 38%, rgba(112,54,154,1) 100%, rgba(181,87,250,1) 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(91.81deg, #000, rgba(102, 102, 102, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  padding: 20px;
 }
 
 .shadow-glow {
@@ -72,4 +86,20 @@ h1 {
 
 .achievement .pose{
   width: 27rem;
+}
+
+/* howToJoin */
+
+.howToJoin .card-1{
+  background-image: url(./assets/cardBack/cardBack1.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.howToJoin .card-2{
+  background-image: url(./assets/cardBack/cardBack2.svg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }

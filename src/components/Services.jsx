@@ -7,7 +7,7 @@ import FeatureTab from './FeatureTab'
 
 const Services = () => {
     return (
-        <div className="">
+        <div className="max-w-align-element m-auto">
             <BrandLogo/>
             <FeaturedCard/>
             <FeatureTab/>

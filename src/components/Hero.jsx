@@ -5,7 +5,7 @@ import Header from './Header';
 
 const Hero = () => {
     return (
-        <div className='px-8 p-5'>
+        <div className='px-8 p-5 mt-5 max-w-align-element m-auto'>
             <div className="relative border border-gray-500 rounded-2xl min-h-screen overflow-hidden">
                 <Header />
                 <div className="hero  bg-black  flex items-center justify-center p-16">
