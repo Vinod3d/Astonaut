@@ -75,7 +75,7 @@ h1 {
 }
 
 .text-gradient2 {
-  background: linear-gradient(91.81deg, #FFFFFF, rgba(102, 102, 102, 0));
+  background: linear-gradient(91.81deg, #666666, #FFFFFF);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

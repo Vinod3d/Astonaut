@@ -6,23 +6,23 @@ import logo from '../assets/logo.png'
 
 
 const Header = () => {
-  return (
-    <>
-        <div className='header bg-black flex justify-between h-16 items-center px-10 text-white'>
-            <div className="text-lg ">
-                <FaEnvelope/>
+    return (
+        <>
+            <div className='header bg-black flex justify-between h-16 items-center px-10 text-white'>
+                <a href="#" className="text-lg">
+                    <FaEnvelope />
+                </a>
+                <div className="logo">
+                    <a href="#"><img src={logo} alt="" /></a>
+                </div>
+                <div className="flex space-x-3 text-lg">
+                    <a href="#"><FaTelegramPlane /></a>
+                    <a href="#"><FaTwitter /></a>
+                    <a href="#"><FaDiscord /></a>
+                </div>
             </div>
-            <div className="logo">
-                <img src={logo} alt="" />
-            </div>
-            <div className="flex space-x-3 text-lg">
-                <FaTelegramPlane />
-                <FaTwitter />
-                <FaDiscord />
-            </div>
-        </div>
-    </>
-  )
+        </>
+    )
 }
 
 export default Header

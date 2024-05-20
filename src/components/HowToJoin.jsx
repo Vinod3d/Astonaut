@@ -10,7 +10,7 @@ const HowToJoin = () => {
             <div className="howToJoin border border-gray-500 rounded-2xl bg-black  overflow-hidden">
                 <div className="md:h-[640px] flex flex-wrap items-center text-white md:p-5">
                     <div className="w-full lg:w-2/3 px-4">
-                        <div className='flex'>
+                        <div className='flex flex-col md:flex-row gap-3 text-center p-10'>
                             <h1 className="text-4xl md:text-[4vw] pl-2 font-main-bold flex-1 mb-6">How to join?</h1>
                             <p className="flex-1 text-[22px] pl-5 mb-8">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem</p>
                         </div>
@@ -81,7 +81,7 @@ const HowToJoin = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full lg:w-1/3 px-4 flex justify-center items-center">
+                    <div className="w-full lg:w-1/3 px-4 flex justify-center items-center hidden md:block">
                         <img src={pose3} alt="Astronaut illustration" className="max-w-full h-auto" />
                     </div>
                 </div>

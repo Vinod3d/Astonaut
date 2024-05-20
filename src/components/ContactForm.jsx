@@ -19,8 +19,8 @@ const ContactForm = () => {
                         </div>
                     </div>
                     <div className="mt-8 md:mt-0 flex-1 p-6">
-                        <form className="space-y-4 px-16">
-                        <h2 className="text-[4vw]  font-main-bold font-bold mb-10">Let's Collaborate</h2>
+                        <form className="md:space-y-4 md:px-16">
+                        <h2 className="md:text-[4vw] text-4xl  font-main-bold font-bold mb-10">Let's Collaborate</h2>
                             <div className="flex flex-wrap -mx-2">
                                 <div className="w-full md:w-1/2 px-2 mb-4">
                                     <label className="block text-sm font-medium text-gray-700" htmlFor="name">Your Name</label>
