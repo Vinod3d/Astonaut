@@ -99,10 +99,6 @@ h1 {
   height: 430px;
 }
 
-.tabPhoto img{
-  width: 27rem;
-}
-
 /* Achievement */
 
 .achievement .pose{
@@ -134,6 +130,13 @@ h1 {
 
 .howToJoin .card-4{
   background-image: url(./assets/cardBack/cardBack4.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tabPhoto{
+  background-image: url(./assets/bg2.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

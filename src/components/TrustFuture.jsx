@@ -1,12 +1,12 @@
 import bg from '../assets/bg.png'
 import pose5 from '../assets/pose5.png'
 import { FiArrowUpRight } from "react-icons/fi";
+import Header from './Header';
 
 const TrustFuture = () => {
     return (
         <div className='px-4 md:px-8 pb-10 max-w-align-element m-auto'>
             <div className="TrustTheFuture md:relative border border-gray-500 rounded-2xl bg-black  overflow-hidden">
-
                 <div className="md:h-[450px] grad-4 flex flex-col md:flex-row justify-around">
                     <div className="md:absolute left-16 top-32 flex flex-col  justify-center  " >
                         <div className="leading-3 text-white">
@@ -38,6 +38,7 @@ const TrustFuture = () => {
                     </div>
                 </div>
             </div>
+            <Header/>
         </div>
     );
 }
