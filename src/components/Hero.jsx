@@ -11,14 +11,14 @@ const Hero = () => {
                 <div className="hero  bg-black  flex items-center justify-center p-16">
                     <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center">
                         {/* Left Side Content */}
-                        <div className="flex-1 flex-col text-center md:text-left p-4">
+                        <div className="md:flex-1 flex-col text-center md:text-left p-4">
                             <div className="content-group text-white">
                                 <div className='flex items-center space-x-5 '>
 
-                                    <h1 className="text-gradient2 pb-2 font-main font-bold mb-4 text-[6vw]">Future </h1>
-                                    <FiArrowDownRight className='text-8xl text-purple-600' />
+                                    <h1 className="text-gradient2 font-main font-bold md:text-[6vw] text-5xl">Future </h1>
+                                    <FiArrowDownRight className='md:text-[6vw] text-5xl cursor-pointer text-purple-600' />
                                 </div>
-                                <h1 className="text-gradient2 py-2 font-main text-[6vw] font-bold mb-4 text">of Launch</h1>
+                                <h1 className="text-gradient2  font-main md:text-[6vw] text-5xl font-bold p-1 text">of Launch</h1>
                             </div>
                             <div className="action-btn mt-10 flex justify-center md:justify-start space-x-4">
                                 <a href="#" className="bg-purple-600  text-white py-2 px-4 rounded-2xl hover:bg-purple-700">Join Now</a>
