@@ -8,7 +8,7 @@ const Achievement = () => {
                 <div className="md:h-[650px] flex flex-col md:flex-row items-center justify-between">
                     <div className="md:w-[35%] md:h-[100%] flex justify-between flex-col  p-4 md:p-8">
                         <div className="text-center md:text-left">
-                            <h2 className='text-gradient font-main-bold font-semibold text-4xl absolute top-24 md:text-[6vw] md:ml-20 mb-4'>We're Not new,</h2>
+                            <h2 className='text-gradient font-main-bold font-semibold text-5xl absolute top-24 md:text-[6vw] md:ml-20 mb-4'>We're Not new,</h2>
                             <img src={pose2} alt="Animated Character" className="md:absolute md:top-[-50px] w-full md:w-[37rem] ml-0" />
                         </div>
                         <div className="flex justify-center md:justify-start">
