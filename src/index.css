@@ -141,3 +141,13 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
+/* trust the future */
+
+.TrustTheFuture .bgImg{
+  background-image: url(./assets/bg3.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
