@@ -81,7 +81,7 @@ const HowToJoin = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full lg:w-1/3 px-4 flex justify-center items-center hidden md:block">
+                    <div className="w-full lg:w-1/3 px-4 flex justify-center items-center hidden lg:block">
                         <img src={pose3} alt="Astronaut illustration" className="max-w-full h-auto" />
                     </div>
                 </div>
