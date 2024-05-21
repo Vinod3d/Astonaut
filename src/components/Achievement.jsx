@@ -43,7 +43,7 @@ const Achievement = () => {
                                         <p className="text-xl md:text-lg"> Community</p>
                                     </div>
                                 </div>
-                                <button className="h-28 w-28 bg-purple-500 hover:bg-purple-600 hidden lg:block text-white font-bold p-2 rounded-3xl">
+                                <button className="h-28 w-28 bg-purple-500 hover:bg-purple-600 hidden xl:block text-white font-bold p-2 rounded-3xl">
                                     <FiArrowDownRight className='text-5xl md:text-7xl m-auto' />
                                 </button>
                             </div>

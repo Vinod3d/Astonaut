@@ -5,9 +5,9 @@ const FeatureTab = () => {
     return (
         <div className="px-4 md:px-8 pb-10 relative">
             <div className="bg-black border rounded-2xl border-gray-500 text-white overflow-hidden">
-                <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-                    <div className="tabPhoto w-full md:w-1/2 lg:w-2/5">
-                        <img src={men} className='m-auto w-full md:w-80 lg:w-[28rem] mt-6 md:mt-9' alt="Futuristic Character" />
+                <div className="container md:h-[440px] mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
+                    <div className="tabPhoto w-full md:w-1/2 lg:w-2/5 ">
+                        <img src={men} className='m-auto w-full md:w-[500px] lg:w-[30rem] mt-10' alt="Futuristic Character" />
                     </div>
                     <div className="w-full md:w-1/2 lg:w-3/5 flex flex-col gap-8 md:gap-16 px-4 md:px-0">
                         <div className="flex flex-wrap justify-center md:justify-start space-x-2 md:space-x-3">

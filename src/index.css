@@ -136,8 +136,8 @@ h1 {
 
 .tabPhoto{
   background-image: url(./assets/bg2.svg);
-  background-size: cover;
-  background-position: center;
+  background-size:100%;
+  background-position:center;
   background-repeat: no-repeat;
 }
 
