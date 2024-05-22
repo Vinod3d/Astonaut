@@ -31,11 +31,18 @@ const Hero = () => {
                         {/* Right Side Image */}
                         <div className=" order-1 flex-1 flex justify-center items-center relative p-4">
                             <div className="relative">
-                                <div className="border border-gray-300 rounded-3xl p-4">
-                                    <div className="border border-gray-400 rounded-3xl p-4">
-                                        <div className="border border-gray-500 rounded-3xl p-4">
+                                <div className="border border-purple-600 rounded-3xl p-4">
+                                    <div className="border border-purple-600 rounded-3xl p-4">
+                                        <div className="border border-purple-600 rounded-3xl p-4">
                                             <div className="rounded-3xl bg-purple-600 h-80 w w-72">
-                                                <img src={HeroImg} alt="Hero" className="rounded-3xl" />
+                                                <div className="">
+                                                    <div className="relative flex items-center justify-center h-screen">
+                                                        <div className="bg-white   blur-[31px] -mt-72 w-72 h-96 rounded-full">
+
+                                                        </div>
+                                                            <img src={HeroImg} alt="Hero" className="absolute -mt-48 rounded-3xl" />
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
